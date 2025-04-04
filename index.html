@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcami Clone - Full Page Responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Add custom fonts here -->
+</head>
+<body>
+
+    <!-- 1. Top Bar -->
+    <div class="top-bar">
+        GET 25% OFF YOUR FIRST MONTH. FREE SHIPPING ON U.S ORDERS.
+    </div>
+
+    <!-- 2. Header (Updated for Responsive) -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">ALCAMI</div>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- Navigation Wrapper -->
+            <div class="nav-wrapper">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop <i class="fas fa-chevron-down fa-xs"></i></a></li>
+                        <li><a href="#">Elements</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <i class="fas fa-search search-icon"></i>
+                    <a href="#" class="btn btn-primary">Try Alcami <i class="fas fa-arrow-right fa-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="rating-badge">
+                       <i class="fas fa-star"></i> 4.8 star rating
+                    </div>
+                    <p class="award-text">awarded the top adaptogen blend in the world</p>
+                    <h1>Achieve your highest self.</h1>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-label">concentration</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">9</span>
+                            <span class="stat-label">powerful<br>ingredients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000<span class="stat-unit"> mg</span></span>
+                            <span class="stat-label">of Adaptogens<br>per dose</span> <!-- Updated obscured text -->
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-secondary">Shop Now <i class="fas fa-arrow-right fa-xs"></i></a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-collage.png" alt="Alcami product lineup with ingredients">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Ingredients Section -->
+        <section class="ingredients-section section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Concentrated Formula Of The Best Nature Has To Offer</h2>
+                <div class="ingredients-grid">
+                    <div class="ingredient-item">
+                        <img src="images\ingredient-icon-1.png" alt="Lion's Mane Icon">
+                        <p>Lion's Mane</p>
+                    </div>
+                    <div class="ingredient-item">
+                        <img src="images\ingredient-icon-2.png" alt="Cordyceps Icon">
+                        <p>Cordyceps</p>
+                    </div>
+                    <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder.png" alt="Reishi Icon">
+                        <p>Reishi</p>
+                    </div>
+                     <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder2.png" alt="Chaga Icon">
+                        <p>Chaga</p>
+                    </div>
+                     <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder3.png" alt="Turkey Tail Icon">
+                        <p>Turkey Tail</p>
+                    </div>
+                     <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder4.png" alt="Ashwagandha Icon">
+                        <p>Ashwagandha</p>
+                    </div>
+                    <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder5.png" alt="Rhodiola Icon">
+                        <p>Rhodiola</p>
+                    </div>
+                     <div class="ingredient-item">
+                        <img src="images\ingredient-icon-placeholder6.png" alt="Ginseng Icon">
+                        <p>Ginseng</p>
+                    </div>
+                </div>
+                <div class="ingredients-detail">
+                    <div class="ingredients-image">
+                        <img src="images/product-white-pouch.png" alt="Alcami Original Blend Pouch">
+                    </div>
+                    <div class="ingredients-benefits">
+                        <h3>Life Enhancing Blend</h3>ingredient-icon-placeholder.svg
+                        <ul>
+                            <li><i class="fas fa-check"></i> Enhanced Focus & Clarity</li>
+                            <li><i class="fas fa-check"></i> Sustained Energy Levels</li>
+                            <li><i class="fas fa-check"></i> Stress & Anxiety Relief</li>
+                            <li><i class="fas fa-check"></i> Improved Mood & Well-being</li>
+                            <li><i class="fas fa-check"></i> Strengthened Immunity</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">Shop Now <i class="fas fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Product Details/Tabs Section -->
+        <section class="product-tabs-section section-padding light-bg">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-link active" data-tab="ingredients">Ingredients</button>
+                    <button class="tab-link" data-tab="benefits">Benefits</button>
+                    <button class="tab-link" data-tab="usage">Usage</button>
+                    <button class="tab-link" data-tab="faqs">FAQs</button>
+                </div>
+
+                <div id="ingredients" class="tab-content active">
+                    <!-- Content for Ingredients Tab -->
+                    <div class="product-purchase-area">
+                        <div class="product-thumbnails">
+                             <!-- Add active class possibility for JS later -->
+                            <img src="images/product-thumbnail-1.png" alt="Matcha Blend">
+                            <img src="images/product-thumbnail-2.png" alt="Cacao Blend">
+                            <img src="images/product-thumbnail-3.png" alt="Original Blend" class="selected">
+                        </div>
+                        <!-- Added wrapper for main image on mobile -->
+                        <div class="product-image-main">
+                           <img src="images/product-white-pouch.png" alt="Alcami Original Blend" id="mainProductImage">
+                        </div>
+                        <div class="product-info">
+                            <h4>Elements Original</h4>
+                            <p>Our signature blend combines 9 potent adaptogens to enhance focus, energy, and resilience.</p>
+                            <div class="price">
+                                <span class="current-price">$44.00</span>
+                                <span class="original-price">$55.00</span>
+                            </div>
+                            <div class="quantity-selector">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" id="quantity" value="1" min="1">
+                            </div>
+                            <button class="btn btn-add-to-cart">Add To Cart</button>
+                             <p class="presale-note">PRE SALE - Ships Mid July</p>
+                            <div class="payment-icons">
+                                <i class="fab fa-cc-visa"></i>
+                                <i class="fab fa-cc-mastercard"></i>
+                                <i class="fab fa-cc-amex"></i>
+                                <i class="fab fa-cc-paypal"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Full Ingredient List: Organic Lion's Mane Mushroom Extract, Organic Cordyceps Mushroom Extract, Organic Reishi Mushroom Extract, Organic Chaga Mushroom Extract, Organic Turkey Tail Mushroom Extract, Organic Ashwagandha Root Extract, Organic Rhodiola Rosea Root Extract, Organic Panax Ginseng Extract, Organic [9th Ingredient - e.g., Maca Root].</p>
+                </div>
+                <div id="benefits" class="tab-content">
+                    <p>Experience comprehensive wellness support. Our blend is designed to sharpen mental clarity, provide smooth, sustained energy without jitters, help your body adapt to stress, elevate mood, and support a robust immune system. Perfect for daily use to achieve peak performance and well-being.</p>
+                </div>
+                <div id="usage" class="tab-content">
+                    <p>Mix one scoop (approx. 3g) with 8-12 oz of hot or cold water, coffee, tea, smoothies, or your favorite beverage. Stir or blend well until fully dissolved. Enjoy daily, preferably in the morning or early afternoon, for best results.</p>
+                </div>
+                <div id="faqs" class="tab-content">
+                    <p>Find answers to common questions in our main FAQ section below, or contact our support team for more specific inquiries.</p>
+                </div>
+                 <div class="trust-badges">
+                    <span><i class="fas fa-leaf"></i> Vegan</span>
+                    <span><i class="fas fa-flask"></i> Lab Tested</span>
+                    <span><i class="fas fa-seedling"></i> Organic</span>
+                    <span><i class="fas fa-recycle"></i> Eco Packaging</span> <!-- Example addition -->
+                 </div>
+            </div>
+        </section>
+
+        <!-- 6. Subscription Box Section -->
+        <section class="subscription-section section-padding orange-border">
+            <div class="container subscription-container">
+                <div class="subscription-image">
+                    <img src="images/subscription-box.png" alt="Alcami Subscription Box">
+                </div>
+                <div class="subscription-content">
+                    <h3>Subscribe & Save 20%</h3>
+                    <p>Never run out of your daily ritual. Get Alcami delivered to your door every month effortlessly.</p>
+                    <ol class="subscription-benefits">
+                        <li><span>Save 20% on every single order</span></li>
+                        <li><span>Flexible delivery schedule - adjust anytime</span></li>
+                        <li><span>Cancel or pause anytime, hassle-free</span></li>
+                        <li><span>Exclusive access to member perks & new products</span></li>
+                    </ol>
+                    <a href="#" class="btn btn-primary">Subscribe & Save <i class="fas fa-arrow-right fa-xs"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Testimonial/Founder Section -->
+        <section class="founder-section section-padding yellow-border">
+             <div class="container founder-container">
+                 <div class="founder-content">
+                     <h3>Meet The Founder</h3>
+                     <h4>A Message From Our CEO, Alex Chen</h4> <!-- Example Name -->
+                     <p>"We started Alcami with a simple mission: to help people unlock their full potential using the power of nature's finest adaptogens, backed by science and transparency..."</p>
+                     <ul>
+                         <li><i class="fas fa-check"></i> Uncompromising Commitment to Quality</li>
+                         <li><i class="fas fa-check"></i> Sustainable & Ethical Sourcing</li>
+                         <li><i class="fas fa-check"></i> Rigorous Science-Backed Formulas</li>
+                     </ul>
+                     <a href="#" class="btn btn-secondary">Learn More About Our Story <i class="fas fa-arrow-right fa-xs"></i></a>
+                 </div>
+                 <div class="founder-image">
+                     <img src="images/founder.jpg" alt="Alcami Founder/CEO Alex Chen">
+                 </div>
+            </div>
+        </section>
+
+        <!-- 8. Comparison Table Section -->
+        <section class="comparison-section section-padding light-bg">
+            <div class="container">
+                <h2 class="section-title text-center">How Alcami Stacks Up</h2>
+                <p class="text-center subtitle">Full Transparency. Peak Performance. No Compromises.</p>
+                <!-- Add this wrapper -->
+                <div class="table-responsive-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th><img src="images\logo-icon.png" alt="Alcami Icon"> Alcami</th>
+                                <th>Typical Mushroom Coffee</th> <!-- More specific example -->
+                                <th>Generic Adaptogen Blend</th> <!-- More specific example -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Adaptogen Potency</td>
+                                <td><img src="images\check.png" alt="Check"> High (1000mg+)</td>
+                                <td><img src="images\cross.png" alt="Cross"> Often Lower/Undisclosed</td>
+                                <td><img src="images\cross.png" alt="Cross"> Variable</td>
+                            </tr>
+                            <tr>
+                                <td>Ingredient Synergy</td>
+                                <td><img src="images\check.png" alt="Check"> 9 Synergistic Herbs & Fungi</td>
+                                <td><img src="images\cross.png" alt="Cross"> Fewer (2-4 typical)</td>
+                                <td><img src="images\check.png" alt="Check"> Sometimes, Often Isolated</td>
+                            </tr>
+                             <tr>
+                                <td>Taste Profile</td>
+                                <td><img src="images\check.png" alt="Check"> Deliciously Smooth (3 Flavors)</td>
+                                <td><img src="images\cross.png" alt="Cross"> Earthy/Bitter (Coffee Mask)</td>
+                                 <td><img src="images\cross.png" alt="Cross"> Often Grassy/Unpalatable</td>
+                            </tr>
+                            <tr>
+                                <td>Third-Party Tested</td>
+                                <td><img src="images\check.png" alt="Check"> Yes (Purity & Potency)</td>
+                                <td><img src="images\cross.png" alt="Cross"> Not Always</td>
+                                <td><img src="images\check.png" alt="Check"> Sometimes</td>
+                            </tr>
+                            <tr>
+                                <td>Organic Ingredients</td>
+                                <td><img src="images\check.png" alt="Check"> Yes, Certified</td>
+                                <td><img src="images\cross.png" alt="Cross"> Varies (Often Not All)</td>
+                                <td><img src="images\cross.png" alt="Cross"> Varies Widely</td>
+                            </tr>
+                             <tr>
+                                <td>Fruiting Body Extracts</td>
+                                <td><img src="images\check.png" alt="Check"> Yes (Mushrooms)</td>
+                                <td><img src="images\cross.png" alt="Cross"> Sometimes Mycelium</td>
+                                <td><img src="images\cross.png" alt="Cross"> N/A or Varies</td>
+                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-secondary">Shop Elements <i class="fas fa-arrow-right fa-xs"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Lifestyle Image Section -->
+        <section class="lifestyle-image-section">
+            <img src="images/lifestyle-person.jpg" alt="Person by a lake enjoying clarity and focus from Alcami" style="width: 100%; display: block;">
+        </section>
+
+        <!-- 10. Reviews/Ratings Section -->
+        <section class="reviews-section section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Glowing Reviews From Our Community</h2>
+                 <div class="rating-summary text-center">
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                     <span>4.8 stars - 500+ Verified Reviews</span>
+                 </div>
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>Life Changing Energy Boost!</h4>
+                        <p>"I was skeptical at first, but Alcami Original has completely replaced my afternoon coffee habit. Clean, sustained energy without the jitters or crash. Highly recommend!"</p>
+                        <div class="review-author">
+                            <img src="images\review.png" alt="Reviewer Sarah K. Avatar">
+                            <span>Sarah K. - Verified Buyer</span>
+                        </div>
+                    </article>
+                    <article class="review-card">
+                         <div class="review-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h4>Noticeable Focus Improvement</h4>
+                        <p>"As a grad student, focus is everything. Alcami helps me power through long study sessions like never before. Less distraction, more productivity. The Matcha blend is great."</p>
+                        <div class="review-author">
+                             <img src="images\review.png" alt="Reviewer Mike P. Avatar">
+                             <span>Mike P. - Verified Buyer</span>
+                        </div>
+                    </article>
+                    <article class="review-card">
+                         <div class="review-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>Tastes Amazing & Effective</h4>
+                        <p>"Finally, a wellness drink that actually tastes incredible! The Cacao blend feels like a treat, but I know it's packed with goodness. Feeling calmer and more resilient."</p>
+                        <div class="review-author">
+                             <img src="images\review.png" alt="Reviewer Jessica L. Avatar">
+                             <span>Jessica L. - Verified Buyer</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="text-center">
+                     <a href="#" class="btn btn-secondary">Read More Reviews <i class="fas fa-arrow-right fa-xs"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. FAQ Section -->
+        <section class="faq-section section-padding light-bg">
+            <div class="container faq-container">
+                <h2 class="section-title text-center">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <div class="faq-question">
+                            <span>What exactly are adaptogens?</span>
+                            <img src="images\plus.png" class="faq-icon" alt="Expand">
+                        </div>
+                        <div class="faq-answer">
+                            <p>Adaptogens are a unique class of herbs, roots, and mushrooms used for centuries in traditional medicine (like Ayurveda and Traditional Chinese Medicine). They help your body adapt to and resist stressors of all kinds – physical, chemical, or biological – promoting balance (homeostasis).</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <div class="faq-question">
+                            <span>How long does it take to feel the effects of Alcami?</span>
+                             <img src="images\plus.png" class="faq-icon" alt="Expand">
+                        </div>
+                        <div class="faq-answer">
+                            <p>Many users report feeling immediate benefits like increased focus and calm energy within the first few days of consistent use. However, the true power of adaptogens lies in their cumulative effect. More profound benefits like enhanced resilience and stress adaptation are often noticed after 2-4 weeks of daily intake.</p>
+                        </div>
+                    </article>
+                     <article class="faq-item">
+                        <div class="faq-question">
+                            <span>Is Alcami safe? Are there any side effects?</span>
+                            <img src="images\plus.png" class="faq-icon" alt="Expand">
+                        </div>
+                        <div class="faq-answer">
+                            <p>Alcami uses high-quality, organic, and well-researched adaptogens generally considered safe (GRAS) for most healthy adults. Side effects are rare and typically mild if experienced. As with any supplement, it's best to consult your healthcare provider before starting if you are pregnant, nursing, have a pre-existing medical condition, or are taking medications.</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <div class="faq-question">
+                            <span>What's the best way to use Alcami Elements?</span>
+                             <img src="images\plus.png" class="faq-icon" alt="Expand">
+                        </div>
+                        <div class="faq-answer">
+                            <p>It's simple! Just mix one level scoop (scoop included) with 8-12oz of hot or cold water, milk (dairy or plant-based), coffee, tea, or blend it into your favorite smoothie. Stir or shake well until fully dissolved. Enjoy daily for optimal results!</p>
+                        </div>
+                    </article>
+                     <article class="faq-item">
+                        <div class="faq-question">
+                            <span>Can I take Alcami with coffee?</span>
+                             <img src="images\plus.png" class="faq-icon" alt="Expand">
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Many customers love adding Alcami (especially the Original or Cacao blends) to their morning coffee. It can help smooth out the caffeine kick, provide longer-lasting energy, and reduce potential jitters.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Call to Action (Bottom) Section -->
+        <section class="bottom-cta section-padding text-center" style="background-image: url('images/footer-bg.jpg'); background-color: #555;"> <!-- Added fallback color -->
+            <div class="container">
+                <h2>Unlock Your Potential. Feel Your Absolute Best.</h2>
+                <p>Experience the synergistic power of nature's most potent adaptogens, meticulously crafted for modern life's demands.</p>
+                <a href="#" class="btn btn-primary">Shop Alcami Elements Now <i class="fas fa-arrow-right fa-xs"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 13. Footer -->
+    <footer class="footer dark-bg">
+        <div class="container footer-container">
+            <div class="footer-col footer-about">
+                <div class="logo footer-logo">ALCAMI</div>
+                <p>Elevating mind and body wellness through potent, pure, and scientifically validated adaptogen blends.</p>
+                 <div class="social-icons">
+                     <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                     <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                     <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                 </div>
+            </div>
+            <div class="footer-col footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Elements Original</a></li>
+                    <li><a href="#">Elements Cacao</a></li>
+                    <li><a href="#">Elements Matcha</a></li>
+                    <li><a href="#">Subscribe & Save</a></li>
+                    <li><a href="#">Bundles</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-links">
+                 <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Ingredients</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+             <div class="footer-col footer-newsletter">
+                <h4>Join The Alcami Community</h4>
+                <p>Get exclusive wellness tips, product updates, and special offers delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <label for="footer-email" class="visually-hidden">Email Address</label>
+                    <input type="email" id="footer-email" placeholder="Enter your email" required>
+                    <button type="submit" aria-label="Submit Newsletter"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                 <p>© <span id="currentYear"></span> Alcami Wellness Co. All Rights Reserved.</p>
+                 <ul>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Terms of Service</a></li>
+                     <li><a href="#">Accessibility</a></li>
+                 </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Visually Hidden Class for Accessibility -->
+    <style>.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }</style>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
